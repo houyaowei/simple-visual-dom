@@ -1,0 +1,39 @@
+{
+  "name": "simple-virtual-dom",
+  "version": "0.1",
+  "description": "Basic virtual dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "cover": "",
+    "dev": "",
+    "build": "browserify simple-virtual-dom.js -o dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:houyaowei/simple-visual-dom.git"
+  },
+  "keywords": [
+    "virtual-dom"
+  ],
+  "author": "houyaowei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/houyaowei/simple-visual-dom/issues"
+  },
+  "homepage": "https://github.com/houyaowei/simple-visual-dom",
+  "dependencies": {
+    "list-diff2": "^0.1.4"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "codecov.io": "^0.1.6",
+    "istanbul": "^0.4.3",
+    "jsdom": "^7.0.2",
+    "mocha": "^2.3.4",
+    "mocha-jsdom": "^1.0.0",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "standard": "^7.1.2"
+  }
+}
